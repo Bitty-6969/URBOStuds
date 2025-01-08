@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URBOStuds - Online & Offline Tutoring</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to URBOStuds</h1>
+        <p>Your gateway to effective learning with expert tutors!</p>
+        <img src="{{ url_for('static', filename='hero-image.jpg') }}" alt="Learning Image">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('pricing') }}">Pricing</a></li>
+            <li><a href="{{ url_for('tutor_register') }}">Become a Tutor</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Our Services</h2>
+        <p>We offer tutoring in Mathematics, Science, English, and Computer Science.</p>
+        <p>Join our classes and experience personalized learning!</p>
+    </section>
+
+    <section>
+        <h3>Contact Us</h3>
+        <p>For more details, reach out via WhatsApp at <a href="https://wa.me/919556642686">+919556642686</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 URBOStuds. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - URBOStuds</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Pricing</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('pricing') }}">Pricing</a></li>
+            <li><a href="{{ url_for('tutor_register') }}">Become a Tutor</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Class Pricing</h2>
+        <p><strong>Class 6 to 8:</strong> ₹4500</p>
+        <p><strong>Class 9 to 10:</strong> ₹5000</p>
+        <p><strong>Class 11 and 12:</strong> ₹6000</p>
+    </section>
+
+    <section>
+        <h2>Subjects Offered</h2>
+        <p>We offer tutoring in the following subjects:</p>
+        <ul>
+            <li>Mathematics</li>
+            <li>Science</li>
+            <li>English</li>
+            <li>Computer Science</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 URBOStuds. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

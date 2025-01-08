@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - URBOStuds</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Thank You for Registering!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('pricing') }}">Pricing</a></li>
+            <li><a href="{{ url_for('tutor_register') }}">Become a Tutor</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <p>Your registration has been successfully submitted. We will get in touch with you shortly!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 URBOStuds. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
